@@ -29,8 +29,8 @@ Bot.on('interactionCreate',(interaction) => {
 
     if(name == "hello"){
         interaction.reply({
-            content: "Hello you idiot!!!",
-            ephemeral: false //if true only you can see the bot output
+            content: "Hello you there !!!",
+            ephemeral: false //if true, only you can see the bot output
         })
     }
     if(name == "sayhello"){
